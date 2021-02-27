@@ -13,8 +13,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             5,
-            "",
-            "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            "White",
+            "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves.",
+            "1"
         )
     )
 
@@ -23,11 +24,12 @@ fun getPuppyList(): MutableList<Puppy> {
             1,
             "https://images.unsplash.com/photo-1507146426996-ef05306b995a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
             "Shadow",
+            "",
             "Male",
-            "",
             8,
-            "",
+            "Cream",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"2"
         )
     )
 
@@ -36,11 +38,12 @@ fun getPuppyList(): MutableList<Puppy> {
             2,
             "https://images.unsplash.com/photo-1559076728-a51fe1c1f97a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
             "Sparky",
+            "",
             "Female",
-            "",
             6,
-            "",
+            "Cream",
             "very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"3"
         )
     )
 
@@ -49,11 +52,12 @@ fun getPuppyList(): MutableList<Puppy> {
             3,
             "https://images.unsplash.com/photo-1574293876203-8bded53be0f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80",
             "Annie",
+            "",
             "Female",
-            "",
             7,
-            "",
+            "Cream",
             " very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"2"
         )
     )
 
@@ -65,8 +69,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Female",
             10,
-            "",
+            "Cream",
             " very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"3"
         )
     )
 
@@ -78,8 +83,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             9,
-            "",
+            "Brown",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"2"
         )
     )
 
@@ -91,8 +97,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             8,
-            "",
+            "White",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"2"
         )
     )
 
@@ -104,8 +111,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Female",
             9,
-            "",
+            "White",
             " very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"2"
         )
     )
 
@@ -117,8 +125,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             10,
-            "",
+            "White",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"2"
         )
     )
 
@@ -130,8 +139,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             12,
-            "",
+            "White",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"1"
         )
     )
 
@@ -143,8 +153,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Female",
             6,
-            "",
+            "Brown",
             " very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"3"
         )
     )
 
@@ -156,8 +167,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Female",
             9,
-            "",
+            "Black",
             "very calm and gentle, and adores doggie friends! She was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now she is recovering. She is sweetness itself, and her little tail wags endear her to everyone who meets her. She is also great with other dogs, and can make friends with almost anyone. So far she is also fantastic with cats! Basically, she is the greatest :D We are looking for people who will shower her with all the love that she deserves."
+            ,"2"
         )
     )
 
@@ -169,8 +181,9 @@ fun getPuppyList(): MutableList<Puppy> {
             "",
             "Male",
             8,
-            "",
+            "Brown",
             "very calm and gentle, and adores doggie friends! he was attacked by a person with a farm tool, which cut her leg completely open and fractured it. We had to perform an amputation surgery on her and now he is recovering. he is sweetness itself, and her little tail wags endear her to everyone who meets her. he is also great with other dogs, and can make friends with almost anyone. So far he is also fantastic with cats! Basically, he is the greatest :D We are looking for people who will shower her with all the love that he deserves."
+            ,"1"
         )
     )
 

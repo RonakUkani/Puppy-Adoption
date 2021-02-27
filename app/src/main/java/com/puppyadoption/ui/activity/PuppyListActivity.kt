@@ -1,5 +1,6 @@
 package com.puppyadoption.ui.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
@@ -35,8 +36,9 @@ class PuppyListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MyAppTheme {
-                PuppyListScreen(getPuppyList()) {
-
+                PuppyList(getPuppyList()) {
+                    startActivity(Intent(this,PuppyDetailActivity::class.java)
+                        .putExtra("puppy",it))
                 }
             }
         }
@@ -44,7 +46,8 @@ class PuppyListActivity : AppCompatActivity() {
 }
 
 @Composable
-fun PuppyListScreen(puppies: List<Puppy>, onItemClicked: (puppy: Puppy) -> Unit) {
+fun PuppyList(puppies: List<Puppy>,
+                    onItemClicked: (puppy: Puppy) -> Unit) {
     Column(modifier = Modifier.background(color = Color.White)) {
         Text(
             text = "\uD83D\uDC36  Awesome Puppies  \uD83D\uDC3E ",
@@ -58,36 +61,23 @@ fun PuppyListScreen(puppies: List<Puppy>, onItemClicked: (puppy: Puppy) -> Unit)
                 fontSize = 20.sp
             )
         )
-        PuppyList(
-            puppies = puppies,
-            onItemClicked = {
-                onItemClicked(it)
+        LazyColumn(
+            content = {
+                items(puppies) { puppy ->
+                    PuppyItem(
+                        puppy = puppy,
+                    ){
+                        onItemClicked(puppy)
+                    }
+                }
             }
+
         )
     }
 }
 
 @Composable
-fun PuppyList(
-    puppies: List<Puppy>,
-    onItemClicked: (puppy: Puppy) -> Unit
-) {
-    LazyColumn(
-        content = {
-            items(puppies) { puppy ->
-                PuppyItem(
-                    puppy = puppy,
-                    modifier = Modifier.clickable {
-                        onItemClicked(puppy)
-                    }
-                )
-            }
-        }
-    )
-}
-
-@Composable
-private fun PuppyItem(puppy: Puppy, modifier: Modifier) {
+private fun PuppyItem(puppy: Puppy, onclick:(puppy: Puppy)->Unit) {
     Surface(
         color = MaterialTheme.colors.background,
         modifier = Modifier
@@ -96,7 +86,7 @@ private fun PuppyItem(puppy: Puppy, modifier: Modifier) {
     ) {
         Row(
             modifier = Modifier
-                .padding(15.dp)
+                .padding(start = 15.dp, end = 15.dp, top = 3.dp, bottom = 15.dp)
                 .fillMaxWidth()
                 .wrapContentHeight()
 
@@ -104,9 +94,15 @@ private fun PuppyItem(puppy: Puppy, modifier: Modifier) {
             Card(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(150.dp),
+                    .height(150.dp)
+                    .clickable(
+                        onClick = {
+                            onclick(puppy)
+                        }
+                    ),
                 elevation = 10.dp,
                 contentColor = Color.White
+
 
             ) {
                 CoilImage(
@@ -159,7 +155,17 @@ private fun PuppyItem(puppy: Puppy, modifier: Modifier) {
 @Composable
 fun LightPreview() {
     MyAppTheme {
-        PuppyListScreen(getPuppyList()) {
+        PuppyList(getPuppyList()) {
+
+        }
+    }
+}
+
+@Preview("Dark Theme", widthDp = 360, heightDp = 640)
+@Composable
+fun DarkPreview() {
+    MyAppTheme(darkTheme = true) {
+        PuppyList(getPuppyList()) {
 
         }
     }
