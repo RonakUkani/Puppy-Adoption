@@ -5,9 +5,9 @@ Puppy Adoption App is developed with jetpack compose, and submission of #Android
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="/results/screenshot_1.png" width="300">&emsp;<img src="/results/screenshot_2.png" width="300">
+<img src="/results/screen_1.png" width="300">&emsp;<img src="/results/screen_2.png" width="300">
 
-<img src="/results/video.mp4">
+<img src="/results/gif_screen.gif">
 
 ## License
 
